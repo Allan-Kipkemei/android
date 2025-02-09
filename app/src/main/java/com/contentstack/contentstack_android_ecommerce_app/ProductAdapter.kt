@@ -21,7 +21,7 @@ class ProductAdapter (var lamps: ArrayList<Lamp>) : RecyclerView.Adapter<Product
 
     fun launchNextScreen(context: Context, lamp: Lamp): Intent {
         val intent = Intent(context, ProductActivity::class.java)
-        intent.putExtra("lamp", lamp)
+        intent.putExtra("lamp", lamp)gth
         return intent
     }
 
